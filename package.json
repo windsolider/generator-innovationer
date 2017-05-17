@@ -1,0 +1,21 @@
+{
+  "name": "generator-innovationer",
+  "version": "1.0.0",
+  "description": "a scaffold for innovationer",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/windsolider/generator-innovationer.git"
+  },
+  "author": "windsolider",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/windsolider/generator-innovationer/issues"
+  },
+  "homepage": "https://github.com/windsolider/generator-innovationer#readme"
+}
