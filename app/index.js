@@ -2,9 +2,9 @@ let generators = require('yeoman-generator');
 let fs = require('fs');
 let path = require('path');
 
-module.exports = generators.Base.extend(
+module.exports = generators.Base.extend({
 	constructor: function() {
-
+		generators.Base.apply(this, arguments);
 	},
 	prompting: function() {
 		let questions = [
@@ -27,4 +27,4 @@ module.exports = generators.Base.extend(
 	end: function() {
 
 	}
-); 
+}); 
